@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Odd and Even Row Styling</title>
+</head>
+<body>
+</body>
+</html>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 60%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  /* Even rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  /* Odd rows */
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  /* Header row */
+  th {
+    background-color: #333;
+    color: white;
+  }
+</style>
+<h2>Table with Odd & Even Row Colors</h2>
+<table>
+  <tr>
+    <th>Roll No</th>
+    <th>Name</th>
+    <th>Course</th>
+    <th>Marks</th>
+  </tr>
+  <tr>
+    <td>101</td>
+    <td>Rohan</td>
+    <td>HTML</td>
+    <td>85</td>
+  </tr>
+  <tr>
+    <td>102</td>
+    <td>Sneha</td>
+    <td>CSS</td>
+    <td>90</td>
+  </tr>
+  <tr>
+    <td>103</td>
+    <td>Amit</td>
+    <td>AngularJS</td>
+    <td>88</td>
+  </tr>
+  <tr>
+    <td>104</td>
+    <td>Priya</td>
+    <td>JavaScript</td>
+    <td>92</td>
+  </tr>
+</table>
